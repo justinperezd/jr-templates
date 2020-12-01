@@ -1,0 +1,195 @@
+.content-section-title {
+    padding: 30px 0 0 0;
+}
+
+.detail-container {
+    background: #F8F8F8 ;
+    height:641px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.advice-text {
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 32px;
+}
+
+.search-container-error {
+    background: #004A80 ;
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+   
+}
+
+.person-icon-container {
+    background: #004A80;
+    position: absolute;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin: 0 0 250px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-person {
+    width: 40px;
+    height: 46px;
+}
+
+.card-container {
+    height: 412px;
+    width: 980px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 30px;
+    margin: 30px 0px 60px 0px;
+    padding:  40px 0 0 40px;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+.align-card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-text-container {
+    margin: 90px 0 0 120px;
+}
+
+.warning-align-result {
+    margin: 0 38.8% 0 0;
+}
+
+.person-name-description {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-name-text {
+    font-family: HelveticaNeue-Bold;
+    font-size: 32px;
+    color: #004A80;
+    letter-spacing: 0;
+}
+
+.card-text {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+.card-subtitle-text {
+    font-family: HelveticaNeue-Bold;
+    font-size: 22px;
+    color: #004A80;
+    letter-spacing: 0; 
+    padding-bottom: 5px;
+}
+
+.phone-text {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    color: #004A80;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.person-description-container {
+    padding: 5px 0 20px 0;
+}
+
+.person-details-container {
+    display: flex;
+    flex-flow: column wrap;
+    height: 50%;
+    margin: 0 0 0 0;
+}
+
+.person-email-container {
+    padding-top: 20px;
+}
+
+.person-relatives-container {
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .card-container {
+        width: 718px;
+        
+    }   
+ }
+
+ @media only screen and (max-width: 768px) {
+    .detail-container {
+        height: 447px;
+    }
+    
+    .content-section-title {
+        font-size: 48px;
+    }
+
+    .advice-text {
+        font-size: 20px;
+    }
+    .search-section-title {
+        padding: 107px 0 0 0;
+    }
+
+    .card-container {
+        height: 393px;
+        width: 650px;
+    
+    }
+
+    .warning-align-result {
+        margin-left: 25px;
+    }
+ }
+
+ @media only screen and (max-width: 414px) {
+    .person-details-container {
+        height: 100%;
+    
+    }
+
+    .card-container {
+        height: 610px;
+        width: 290px;
+    }
+
+    .person-icon-container {
+        display: none;
+    }
+
+    .card-text-container {
+        margin: 0 0 0 0!important;
+    }
+
+    .warning-align-result {
+        position: absolute;
+        margin :-100px 0 0 59px;
+    }
+ }

@@ -1,0 +1,30 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    width: 70%;
+    color: #999999;
+    padding: 10px 0px 10px 0px;
+    font-family: HelveticaNeue;
+    font-size: 15px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+.terms-row {
+    display: flex;
+    padding: 10px 0px 10px 60px;
+}
+
+.terms-text {
+    padding: 0px 5px 0px 5px;
+    color: #004A80;
+    font-family: HelveticaNeue-Bold;
+    font-size: 14px;
+    color: #004A80;
+    letter-spacing: 0;
+}
+
